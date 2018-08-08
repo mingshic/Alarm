@@ -1,0 +1,30 @@
+        info_id: 10465
+receive_info_id: 10466
+  customer_code: customer_code_测试
+   monitor_code: monitor_code_测试
+monitor_version: monitor_version_测试
+  identity_code: None
+ kpi_assortment: DELLPowerEdgeR720
+       kpi_name: 设备脱网
+      kpi_value: 设备脱网
+  alert_content: DELL产生(警告)告警,当前状态(脱网)
+             ip: 192.168.188.12
+     alert_time: 2018-07-06 16:32:00
+ service_object: 192.168.188.12
+   service_name: None
+   factory_name: DELL
+     model_name: PowerEdgeR720
+             sn: None
+           city: None
+business_system: 未知
+        ma_dept: 运维部
+        ma_user: outmanage
+      ma_mobile: 13512345678
+       ma_email: 123@QQ.com
+analysised_time: 2018-07-09 10:36:00.919866
+auto_create_flg: NULL
+ in_service_flg: NULL
+    deal_status: 6
+      create_on: 2018-07-09 11:00:57
+    modified_on: 2018-07-09 10:36:00
+

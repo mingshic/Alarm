@@ -1,0 +1,14 @@
+[Unit]
+Description=alarm deamon
+After=rc-local.service
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/opt/Alarm/
+ExecStart=/usr/local/python35/bin/python3 manager.py -h 0.0.0.0 -p 5000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

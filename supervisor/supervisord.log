@@ -1,0 +1,467 @@
+2018-05-23 17:43:46,090 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-23 17:43:46,090 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-05-23 17:43:46,090 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-05-23 17:43:46,090 INFO Included extra file "/etc/supervisor/config.d/mail_raw.ini" during parsing
+2018-05-23 17:43:46,115 INFO RPC interface 'supervisor' initialized
+2018-05-23 17:43:46,115 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-05-23 17:43:46,117 INFO daemonizing the supervisord process
+2018-05-23 17:43:46,118 INFO supervisord started with pid 23912
+2018-05-23 17:43:47,124 INFO spawned: 'alarm' with pid 23913
+2018-05-23 17:43:47,129 INFO spawned: 'format_data' with pid 23914
+2018-05-23 17:43:47,134 INFO spawned: 'mail_raw' with pid 23915
+2018-05-23 17:43:48,001 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:43:49,011 INFO spawned: 'alarm' with pid 23919
+2018-05-23 17:43:49,012 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:43:49,013 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:43:50,066 INFO success: alarm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:43:50,066 INFO exited: alarm (exit status 2; expected)
+2018-05-23 17:43:51,071 INFO spawned: 'alarm' with pid 23922
+2018-05-23 17:43:52,008 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:43:53,014 INFO spawned: 'alarm' with pid 23924
+2018-05-23 17:43:53,923 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:43:55,929 INFO spawned: 'alarm' with pid 23928
+2018-05-23 17:43:57,027 INFO success: alarm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:43:57,028 INFO exited: alarm (exit status 2; expected)
+2018-05-23 17:43:58,033 INFO spawned: 'alarm' with pid 23930
+2018-05-23 17:43:58,903 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:43:59,909 INFO spawned: 'alarm' with pid 23932
+2018-05-23 17:44:00,884 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:02,891 INFO spawned: 'alarm' with pid 23935
+2018-05-23 17:44:03,769 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:06,778 INFO spawned: 'alarm' with pid 23937
+2018-05-23 17:44:07,702 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:08,704 INFO gave up: alarm entered FATAL state, too many start retries too quickly
+2018-05-23 17:44:24,297 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-23 17:44:24,298 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-05-23 17:44:24,298 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-05-23 17:44:24,298 INFO Included extra file "/etc/supervisor/config.d/mail_raw.ini" during parsing
+2018-05-23 17:44:24,313 INFO RPC interface 'supervisor' initialized
+2018-05-23 17:44:24,313 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-05-23 17:44:24,314 INFO daemonizing the supervisord process
+2018-05-23 17:44:24,316 INFO supervisord started with pid 23942
+2018-05-23 17:44:25,322 INFO spawned: 'mail_raw' with pid 23943
+2018-05-23 17:44:25,327 INFO spawned: 'format_data' with pid 23944
+2018-05-23 17:44:25,331 INFO spawned: 'alarm' with pid 23945
+2018-05-23 17:44:26,229 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:27,029 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:44:27,030 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:44:28,042 INFO spawned: 'alarm' with pid 23950
+2018-05-23 17:44:28,978 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:30,984 INFO spawned: 'alarm' with pid 23952
+2018-05-23 17:44:31,904 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:34,912 INFO spawned: 'alarm' with pid 23954
+2018-05-23 17:44:35,850 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:36,852 INFO gave up: alarm entered FATAL state, too many start retries too quickly
+2018-05-23 17:46:06,853 WARN received SIGTERM indicating exit request
+2018-05-23 17:46:06,853 INFO waiting for format_data, mail_raw to die
+2018-05-23 17:46:06,859 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-05-23 17:46:06,864 INFO stopped: format_data (terminated by SIGTERM)
+2018-05-23 17:46:07,328 WARN received SIGTERM indicating exit request
+2018-05-23 17:46:07,329 INFO waiting for mail_raw, format_data to die
+2018-05-23 17:46:08,335 INFO stopped: format_data (terminated by SIGTERM)
+2018-05-23 17:46:09,342 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-05-23 17:46:09,459 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-23 17:46:09,460 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-05-23 17:46:09,460 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-05-23 17:46:09,460 INFO Included extra file "/etc/supervisor/config.d/mail_raw.ini" during parsing
+2018-05-23 17:46:09,484 INFO RPC interface 'supervisor' initialized
+2018-05-23 17:46:09,484 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-05-23 17:46:09,485 INFO daemonizing the supervisord process
+2018-05-23 17:46:09,487 INFO supervisord started with pid 23988
+2018-05-23 17:46:10,493 INFO spawned: 'mail_raw' with pid 23989
+2018-05-23 17:46:10,497 INFO spawned: 'format_data' with pid 23990
+2018-05-23 17:46:10,502 INFO spawned: 'alarm' with pid 23991
+2018-05-23 17:46:11,481 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:46:12,483 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:46:12,483 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:46:12,487 INFO spawned: 'alarm' with pid 23996
+2018-05-23 17:46:13,492 INFO success: alarm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:46:13,493 INFO exited: alarm (exit status 2; expected)
+2018-05-23 17:46:13,513 INFO spawned: 'alarm' with pid 23999
+2018-05-23 17:46:14,348 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:46:15,354 INFO spawned: 'alarm' with pid 24001
+2018-05-23 17:46:16,358 INFO success: alarm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:46:16,358 INFO exited: alarm (exit status 2; expected)
+2018-05-23 17:46:17,363 INFO spawned: 'alarm' with pid 24005
+2018-05-23 17:46:18,298 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:46:19,692 INFO spawned: 'alarm' with pid 24008
+2018-05-23 17:46:20,604 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:46:23,275 INFO spawned: 'alarm' with pid 24013
+2018-05-23 17:46:24,046 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:46:27,054 INFO spawned: 'alarm' with pid 24017
+2018-05-23 17:46:27,998 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:46:29,000 INFO gave up: alarm entered FATAL state, too many start retries too quickly
+2018-05-23 17:47:57,629 WARN received SIGTERM indicating exit request
+2018-05-23 17:47:57,630 INFO waiting for mail_raw, format_data to die
+2018-05-23 17:47:58,638 INFO stopped: format_data (terminated by SIGTERM)
+2018-05-23 17:47:58,645 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-05-23 17:47:59,464 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-23 17:47:59,464 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-05-23 17:47:59,464 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-05-23 17:47:59,464 INFO Included extra file "/etc/supervisor/config.d/mail_raw.ini" during parsing
+2018-05-23 17:47:59,487 INFO RPC interface 'supervisor' initialized
+2018-05-23 17:47:59,487 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-05-23 17:47:59,489 INFO daemonizing the supervisord process
+2018-05-23 17:47:59,490 INFO supervisord started with pid 24045
+2018-05-23 17:48:00,495 INFO spawned: 'format_data' with pid 24046
+2018-05-23 17:48:00,500 INFO spawned: 'alarm' with pid 24047
+2018-05-23 17:48:00,503 INFO spawned: 'mail_raw' with pid 24048
+2018-05-23 17:48:01,505 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:48:01,506 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:48:03,652 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-05-23 21:23:49,579 INFO exited: mail_raw (exit status 1; not expected)
+2018-05-23 21:23:50,605 INFO spawned: 'mail_raw' with pid 26426
+2018-05-23 21:23:51,606 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-24 03:19:46,018 INFO exited: format_data (exit status 1; not expected)
+2018-05-24 03:19:47,036 INFO spawned: 'format_data' with pid 31431
+2018-05-24 03:19:48,039 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-21 17:10:08,692 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-06-21 17:10:08,692 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-06-21 17:10:08,692 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-06-21 17:10:08,692 INFO Included extra file "/etc/supervisor/config.d/post_mail.ini" during parsing
+2018-06-21 17:10:08,710 INFO RPC interface 'supervisor' initialized
+2018-06-21 17:10:08,710 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-06-21 17:10:08,711 INFO daemonizing the supervisord process
+2018-06-21 17:10:08,713 INFO supervisord started with pid 9933
+2018-06-21 17:10:09,719 INFO spawned: 'format_data' with pid 9934
+2018-06-21 17:10:09,723 INFO spawned: 'alarm' with pid 9935
+2018-06-21 17:10:09,727 INFO spawned: 'mail_raw' with pid 9936
+2018-06-21 17:10:10,730 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-21 17:10:10,730 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-21 17:10:12,733 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-06-21 17:13:03,373 INFO waiting for mail_raw to stop
+2018-06-21 17:13:03,377 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-06-27 12:03:14,974 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:03:15,991 INFO spawned: 'format_data' with pid 15535
+2018-06-27 12:03:16,994 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:10:03,200 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:10:04,207 INFO spawned: 'format_data' with pid 15568
+2018-06-27 12:10:05,210 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:53:04,627 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:53:05,635 INFO spawned: 'format_data' with pid 15721
+2018-06-27 12:53:06,638 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:53:31,309 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:53:32,314 INFO spawned: 'format_data' with pid 15724
+2018-06-27 12:53:33,317 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:53:52,930 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:53:53,935 INFO spawned: 'format_data' with pid 15727
+2018-06-27 12:53:54,938 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:55:14,716 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:55:15,722 INFO spawned: 'format_data' with pid 15731
+2018-06-27 12:55:16,724 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:56:01,425 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:56:02,430 INFO spawned: 'format_data' with pid 15734
+2018-06-27 12:56:03,432 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:56:28,054 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:56:29,059 INFO spawned: 'format_data' with pid 15737
+2018-06-27 12:56:30,062 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:56:59,693 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:57:00,698 INFO spawned: 'format_data' with pid 15739
+2018-06-27 12:57:01,701 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:57:26,396 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:57:27,401 INFO spawned: 'format_data' with pid 15743
+2018-06-27 12:57:28,404 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:57:48,035 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:57:49,040 INFO spawned: 'format_data' with pid 15745
+2018-06-27 12:57:50,042 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:58:19,685 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:58:20,690 INFO spawned: 'format_data' with pid 15747
+2018-06-27 12:58:21,693 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:58:41,310 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:58:42,315 INFO spawned: 'format_data' with pid 15754
+2018-06-27 12:58:43,318 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:59:08,013 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:59:09,018 INFO spawned: 'format_data' with pid 15756
+2018-06-27 12:59:10,020 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:59:29,660 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:59:30,665 INFO spawned: 'format_data' with pid 15760
+2018-06-27 12:59:31,668 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:59:51,291 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:59:52,297 INFO spawned: 'format_data' with pid 15764
+2018-06-27 12:59:53,299 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:00:17,927 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:00:18,932 INFO spawned: 'format_data' with pid 15780
+2018-06-27 13:00:19,935 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:00:44,551 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:00:45,556 INFO spawned: 'format_data' with pid 15784
+2018-06-27 13:00:46,558 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:01:06,175 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:01:07,180 INFO spawned: 'format_data' with pid 15819
+2018-06-27 13:01:08,182 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:01:32,804 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:01:33,809 INFO spawned: 'format_data' with pid 15821
+2018-06-27 13:01:34,812 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:01:59,508 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:02:00,513 INFO spawned: 'format_data' with pid 15824
+2018-06-27 13:02:01,516 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:02:46,187 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:02:47,193 INFO spawned: 'format_data' with pid 15833
+2018-06-27 13:02:48,195 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:03:07,909 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:03:08,914 INFO spawned: 'format_data' with pid 15836
+2018-06-27 13:03:09,917 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-06 16:44:44,586 INFO waiting for format_data to stop
+2018-07-06 16:44:44,591 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-06 17:20:18,371 INFO spawned: 'format_data' with pid 11025
+2018-07-06 17:20:19,374 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-06 17:21:21,880 INFO spawned: 'mail_raw' with pid 11038
+2018-07-06 17:21:22,884 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 08:55:42,220 INFO waiting for format_data to stop
+2018-07-09 08:55:42,223 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 08:58:05,371 INFO waiting for alarm to stop
+2018-07-09 08:58:05,557 INFO stopped: alarm (exit status 0)
+2018-07-09 08:58:09,359 INFO spawned: 'alarm' with pid 31317
+2018-07-09 08:58:12,365 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-09 08:58:59,104 INFO waiting for alarm to stop
+2018-07-09 08:58:59,293 INFO stopped: alarm (exit status 0)
+2018-07-09 08:58:59,302 INFO spawned: 'alarm' with pid 31330
+2018-07-09 08:59:02,309 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-09 08:59:27,526 INFO waiting for alarm to stop
+2018-07-09 08:59:27,702 INFO stopped: alarm (exit status 0)
+2018-07-09 09:00:20,994 INFO spawned: 'alarm' with pid 31355
+2018-07-09 09:00:24,001 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-09 11:11:02,984 INFO spawned: 'format_data' with pid 3506
+2018-07-09 11:11:03,988 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 11:11:19,271 WARN received SIGTERM indicating exit request
+2018-07-09 11:11:19,272 INFO waiting for format_data, alarm, mail_raw to die
+2018-07-09 11:11:20,277 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-07-09 11:11:20,471 INFO stopped: alarm (exit status 0)
+2018-07-09 11:11:20,476 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 11:11:46,206 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-07-09 11:11:46,207 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-07-09 11:11:46,207 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-07-09 11:11:46,207 INFO Included extra file "/etc/supervisor/config.d/post_mail.ini" during parsing
+2018-07-09 11:11:46,230 INFO RPC interface 'supervisor' initialized
+2018-07-09 11:11:46,231 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-07-09 11:11:46,232 INFO daemonizing the supervisord process
+2018-07-09 11:11:46,234 INFO supervisord started with pid 3518
+2018-07-09 11:11:47,239 INFO spawned: 'format_data' with pid 3520
+2018-07-09 11:11:47,244 INFO spawned: 'alarm' with pid 3521
+2018-07-09 11:11:47,248 INFO spawned: 'mail_raw' with pid 3522
+2018-07-09 11:11:48,251 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 11:11:48,251 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 11:11:50,254 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-09 11:44:17,992 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 11:44:19,000 INFO spawned: 'alarm' with pid 3706
+2018-07-09 11:44:19,653 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 11:44:20,659 INFO spawned: 'alarm' with pid 3708
+2018-07-09 11:44:21,292 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 11:44:23,298 INFO spawned: 'alarm' with pid 3711
+2018-07-09 11:44:23,901 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 11:44:26,910 INFO spawned: 'alarm' with pid 3714
+2018-07-09 11:44:27,583 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 11:44:28,585 INFO gave up: alarm entered FATAL state, too many start retries too quickly
+2018-07-09 12:11:10,199 INFO spawned: 'alarm' with pid 11405
+2018-07-09 12:11:13,207 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-09 12:50:43,047 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 12:50:44,053 INFO spawned: 'format_data' with pid 12347
+2018-07-09 12:50:44,606 INFO waiting for format_data to stop
+2018-07-09 12:50:44,609 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 12:50:50,850 INFO spawned: 'format_data' with pid 12349
+2018-07-09 12:50:51,854 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 12:51:34,937 INFO waiting for format_data to stop
+2018-07-09 12:51:34,952 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 12:52:20,944 INFO spawned: 'format_data' with pid 12357
+2018-07-09 12:52:21,947 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 13:04:05,617 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 13:04:06,623 INFO spawned: 'format_data' with pid 13002
+2018-07-09 13:04:07,625 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 13:04:08,340 INFO waiting for format_data to stop
+2018-07-09 13:04:08,346 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 13:04:08,354 INFO spawned: 'format_data' with pid 13004
+2018-07-09 13:04:09,357 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 13:13:33,347 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 13:13:34,353 INFO spawned: 'format_data' with pid 13044
+2018-07-09 13:13:35,355 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 13:13:36,217 INFO waiting for format_data to stop
+2018-07-09 13:13:36,224 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 13:13:36,231 INFO spawned: 'format_data' with pid 13046
+2018-07-09 13:13:37,234 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 14:13:25,600 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 14:13:26,607 INFO spawned: 'alarm' with pid 13373
+2018-07-09 14:13:27,251 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 14:13:28,256 INFO spawned: 'alarm' with pid 13375
+2018-07-09 14:13:28,887 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 14:13:30,893 INFO spawned: 'alarm' with pid 13377
+2018-07-09 14:13:31,532 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 14:13:34,540 INFO spawned: 'alarm' with pid 13380
+2018-07-09 14:13:35,282 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 14:13:36,284 INFO gave up: alarm entered FATAL state, too many start retries too quickly
+2018-07-09 14:14:57,169 INFO spawned: 'alarm' with pid 13401
+2018-07-09 14:15:00,176 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-09 15:07:27,997 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 15:07:29,002 INFO spawned: 'alarm' with pid 15995
+2018-07-09 15:07:29,853 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 15:07:30,859 INFO spawned: 'alarm' with pid 15997
+2018-07-09 15:07:31,750 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 15:07:33,757 INFO spawned: 'alarm' with pid 16000
+2018-07-09 15:07:34,832 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 15:07:37,840 INFO spawned: 'alarm' with pid 16045
+2018-07-09 15:07:38,922 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 15:07:39,924 INFO gave up: alarm entered FATAL state, too many start retries too quickly
+2018-07-09 15:21:06,148 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:07,162 INFO spawned: 'format_data' with pid 18041
+2018-07-09 15:21:08,164 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:13,045 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:14,050 INFO spawned: 'format_data' with pid 18044
+2018-07-09 15:21:15,053 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:18,762 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:19,768 INFO spawned: 'format_data' with pid 18050
+2018-07-09 15:21:20,770 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:24,315 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:25,321 INFO spawned: 'format_data' with pid 18053
+2018-07-09 15:21:26,324 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:29,625 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:30,630 INFO spawned: 'format_data' with pid 18055
+2018-07-09 15:21:31,633 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:34,942 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:35,946 INFO spawned: 'format_data' with pid 18057
+2018-07-09 15:21:36,949 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:39,978 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:40,984 INFO spawned: 'format_data' with pid 18059
+2018-07-09 15:21:41,986 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:46,111 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:46,115 INFO spawned: 'format_data' with pid 18065
+2018-07-09 15:21:47,118 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:50,167 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:51,173 INFO spawned: 'format_data' with pid 18067
+2018-07-09 15:21:52,175 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:56,107 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:57,112 INFO spawned: 'format_data' with pid 18069
+2018-07-09 15:21:58,114 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:01,238 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:02,243 INFO spawned: 'format_data' with pid 18073
+2018-07-09 15:22:03,246 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:06,137 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:07,142 INFO spawned: 'format_data' with pid 18075
+2018-07-09 15:22:08,145 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:11,610 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:12,615 INFO spawned: 'format_data' with pid 18077
+2018-07-09 15:22:13,618 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:16,705 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:17,710 INFO spawned: 'format_data' with pid 18079
+2018-07-09 15:22:18,712 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:21,712 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:23,011 INFO spawned: 'format_data' with pid 18088
+2018-07-09 15:22:24,014 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:27,386 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:28,391 INFO spawned: 'format_data' with pid 18091
+2018-07-09 15:22:29,394 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:32,458 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:33,463 INFO spawned: 'format_data' with pid 18093
+2018-07-09 15:22:34,466 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:37,467 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:38,472 INFO spawned: 'format_data' with pid 18095
+2018-07-09 15:22:39,475 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:42,552 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:43,557 INFO spawned: 'format_data' with pid 18097
+2018-07-09 15:22:44,560 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:47,582 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:48,588 INFO spawned: 'format_data' with pid 18099
+2018-07-09 15:22:49,590 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:52,839 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:53,844 INFO spawned: 'format_data' with pid 18101
+2018-07-09 15:22:54,846 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:58,254 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:59,260 INFO spawned: 'format_data' with pid 18104
+2018-07-09 15:23:00,262 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:03,454 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:04,459 INFO spawned: 'format_data' with pid 18106
+2018-07-09 15:23:05,462 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:08,518 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:09,523 INFO spawned: 'format_data' with pid 18108
+2018-07-09 15:23:10,526 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:13,895 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:14,900 INFO spawned: 'format_data' with pid 18110
+2018-07-09 15:23:15,903 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:19,167 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:20,172 INFO spawned: 'format_data' with pid 18112
+2018-07-09 15:23:21,175 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:24,352 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:25,489 INFO spawned: 'format_data' with pid 18114
+2018-07-09 15:23:26,491 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:29,654 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:30,660 INFO spawned: 'format_data' with pid 18116
+2018-07-09 15:23:31,662 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:34,866 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:35,872 INFO spawned: 'format_data' with pid 18120
+2018-07-09 15:23:36,875 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:41,037 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:42,042 INFO spawned: 'format_data' with pid 18123
+2018-07-09 15:23:43,045 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:53,164 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:54,169 INFO spawned: 'format_data' with pid 18126
+2018-07-09 15:23:55,171 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:58,202 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:59,281 INFO spawned: 'format_data' with pid 18128
+2018-07-09 15:24:00,284 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:24:03,651 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:24:04,656 INFO spawned: 'format_data' with pid 18133
+2018-07-09 15:24:05,659 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:24:11,548 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:24:11,552 INFO spawned: 'format_data' with pid 18135
+2018-07-09 15:24:12,554 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:24:15,872 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:24:15,875 INFO spawned: 'format_data' with pid 18137
+2018-07-09 15:24:16,877 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:24:18,936 INFO waiting for format_data to stop
+2018-07-09 15:24:18,946 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 15:24:24,393 INFO waiting for mail_raw to stop
+2018-07-09 15:24:25,691 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-07-10 09:43:10,189 INFO spawned: 'alarm' with pid 31467
+2018-07-10 09:43:13,196 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-10 09:43:17,535 INFO spawned: 'mail_raw' with pid 31472
+2018-07-10 09:43:18,539 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 13:41:06,922 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-11 13:41:07,928 INFO spawned: 'mail_raw' with pid 17609
+2018-07-11 13:41:08,930 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 13:41:09,302 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-11 13:41:10,307 INFO spawned: 'mail_raw' with pid 17613
+2018-07-11 13:41:11,310 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 13:41:11,692 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-11 13:41:12,697 INFO spawned: 'mail_raw' with pid 17617
+2018-07-11 13:41:13,984 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 13:41:14,074 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-11 13:41:15,080 INFO spawned: 'mail_raw' with pid 17621
+2018-07-11 13:41:16,082 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 13:41:16,465 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-11 13:41:16,632 INFO spawned: 'mail_raw' with pid 17625
+2018-07-11 13:41:16,640 INFO waiting for alarm to stop
+2018-07-11 13:41:16,844 INFO stopped: alarm (exit status 0)
+2018-07-11 13:41:16,851 INFO spawned: 'alarm' with pid 17627
+2018-07-11 13:41:17,853 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 13:41:19,856 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-11 13:41:47,415 INFO spawned: 'format_data' with pid 17635
+2018-07-11 13:41:48,419 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 14:07:13,839 INFO waiting for format_data to stop
+2018-07-11 14:07:13,844 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-11 14:07:13,851 INFO spawned: 'format_data' with pid 17986
+2018-07-11 14:07:14,855 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 14:54:49,433 INFO exited: format_data (exit status 1; not expected)
+2018-07-11 14:54:50,439 INFO spawned: 'format_data' with pid 18154
+2018-07-11 14:54:51,442 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 18:32:33,174 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-07-11 18:32:33,174 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-07-11 18:32:33,174 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-07-11 18:32:33,174 INFO Included extra file "/etc/supervisor/config.d/post_mail.ini" during parsing
+2018-07-11 18:32:33,174 INFO Included extra file "/etc/supervisor/config.d/send_top.ini" during parsing
+2018-07-11 18:32:33,282 INFO RPC interface 'supervisor' initialized
+2018-07-11 18:32:33,282 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-07-11 18:32:33,284 INFO daemonizing the supervisord process
+2018-07-11 18:32:33,286 INFO supervisord started with pid 21759
+2018-07-11 18:32:34,292 INFO spawned: 'mail_raw' with pid 21760
+2018-07-11 18:32:34,297 INFO spawned: 'alarm' with pid 21761
+2018-07-11 18:32:34,301 INFO spawned: 'format_data' with pid 21762
+2018-07-11 18:32:34,305 INFO spawned: 'send_top' with pid 21763
+2018-07-11 18:32:35,307 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 18:32:35,308 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 18:32:35,308 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 18:32:38,004 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-12 09:32:32,868 INFO waiting for send_top to stop
+2018-07-12 09:32:32,875 INFO stopped: send_top (terminated by SIGTERM)
+2018-07-12 10:18:30,478 INFO waiting for format_data to stop
+2018-07-12 10:18:30,484 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-12 10:18:49,726 INFO spawned: 'format_data' with pid 25892
+2018-07-12 10:18:50,730 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-12 15:29:32,752 INFO spawned: 'send_top' with pid 27847
+2018-07-12 15:29:33,756 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

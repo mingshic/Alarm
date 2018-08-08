@@ -1,0 +1,32 @@
+{
+    "data": {
+        "infoId": "1",
+        "customerCode": "C3383",
+        "customerName": "日月光封装测试",
+        "monitorCode": "itsSmart",
+        "monitorName": "itsSmart",
+        "monitorVersion": "V1",
+        "identityCode": "1500",
+        "kpiAssortment": "9500",
+        "kpiName": "1800",
+        "kpiValue": "1800",
+        "alertContent": "监控测试",
+        "ip": "172.16.3.61",
+        "serviceObject": "1800",
+        "serviceName": "1800",
+        "factoryName": "SUN",  #
+        "modelName": "V440",  #
+        "sn": "0720BD2159",  #
+        "city": "310100",  
+        "businessSystem": "TOP",
+        "maDept": "1800",
+        "maUser": "1800",
+        "maMobile": "1800",
+        "maEmail": "1800",
+        "autoCreateFlg": "1", #
+        "inServiceFlg": "",
+        "alertTime": "2018/5/1", #
+        "dealStatus": "1"
+    },
+    "key": "2395e8caea6029562cd1b63a688f6561"
+}
